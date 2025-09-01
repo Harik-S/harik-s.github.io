@@ -38,6 +38,14 @@ main a:hover {
   font-weight: bold;
 }
 
+body a {
+  color:#000;
+}
+body a:hover {
+  color:#000;
+  font-weight: bold;
+}
+
 main {
   padding: 2rem;
   max-width: 800px;
