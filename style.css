@@ -6,6 +6,7 @@ body {
   line-height: 1.6;
 }
 
+/* --- HEADER --- */
 header {
   background: #1f2937;
   color: #fff;
@@ -30,22 +31,18 @@ nav a:hover {
   color: #fff;
 }
 
+/* --- INLINE LINKS (inside main content) --- */
 main a {
-  color:#000 !important;
-}
-main a:hover {
-  color:#000 !important;
-  font-weight: bold !important;
+  color: #000;
+  text-decoration: underline;
 }
 
-body a {
-  color:#000;
-}
-body a:hover {
-  color:#000;
+main a:hover {
+  color: #000;
   font-weight: bold;
 }
 
+/* --- MAIN LAYOUT --- */
 main {
   padding: 2rem;
   max-width: 800px;
@@ -58,6 +55,7 @@ h2 {
   margin-top: 2rem;
 }
 
+/* --- FOOTER --- */
 footer {
   background: #f3f4f6;
   text-align: center;
@@ -67,14 +65,13 @@ footer {
   color: #555;
 }
 
-/* Make the whole card clickable */
+/* --- PROJECT CARDS --- */
 .card-link {
   text-decoration: none;   /* no underline */
-  color: inherit;          /* use normal text colour */
+  color: inherit;          /* keep normal text colour */
   display: block;
 }
 
-/* Default card */
 .card {
   background: white;
   border: 1px solid #ddd;
@@ -85,11 +82,8 @@ footer {
   transition: background 0.15s ease, box-shadow 0.15s ease;
 }
 
-/* Hover effect only on box */
 .card:hover {
   background: #f5f5f5;  /* light grey highlight */
   box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
   cursor: pointer;
 }
-
-
