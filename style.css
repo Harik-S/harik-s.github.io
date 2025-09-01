@@ -21,13 +21,11 @@ header h1 {
 }
 
 nav a {
-  color: #ddd;
-  margin-left: 1rem;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: #fff;
+  font-weight: bold;
 }
 
 main {
