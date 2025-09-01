@@ -31,11 +31,11 @@ nav a:hover {
 }
 
 main a {
-  color:#000;
+  color:#000 !important;
 }
 main a:hover {
-  color:#000;
-  font-weight: bold;
+  color:#000 !important;
+  font-weight: bold !important;
 }
 
 body a {
