@@ -21,10 +21,20 @@ header h1 {
 }
 
 nav a {
+  color: #ddd;
+  margin-left: 1rem;
   text-decoration: none;
 }
 
 nav a:hover {
+  color: #fff;
+}
+
+a {
+  color:#000;
+}
+a:hover {
+  color:#000;
   font-weight: bold;
 }
 
