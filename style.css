@@ -53,11 +53,12 @@ footer {
 
 /* Make the whole card clickable */
 .card-link {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none;   /* no underline */
+  color: inherit;          /* use normal text colour */
   display: block;
 }
 
+/* Default card */
 .card {
   background: white;
   border: 1px solid #ddd;
@@ -65,12 +66,14 @@ footer {
   padding: 1rem;
   margin: 1rem 0;
   box-shadow: 2px 2px 4px rgba(0,0,0,0.05);
-  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  transition: background 0.15s ease, box-shadow 0.15s ease;
 }
 
+/* Hover effect only on box */
 .card:hover {
-  transform: translateY(-2px);
-  box-shadow: 4px 6px 12px rgba(0,0,0,0.1);
+  background: #f5f5f5;  /* light grey highlight */
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.1);
   cursor: pointer;
 }
+
 
