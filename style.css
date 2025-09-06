@@ -59,7 +59,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  padding: 0.5rem 0; /* Minimal spacing top and bottom */
+  padding: 0; /* Minimal spacing top and bottom */
 }
 section {
   margin: 0.5rem 0; /* Minimal spacing above and below */
